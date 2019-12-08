@@ -13,7 +13,7 @@ def nyc_pigeon_organizer(data)
           result[name] = {}
         end
         
-        result[name][key].push(value2.to_str)
+        result[name][key].push(value2.to_s)
         
       }
     }
